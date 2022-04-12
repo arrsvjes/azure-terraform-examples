@@ -48,19 +48,19 @@ module "compute" {
   depends_on      = [ module.resource_group, module.network ]
 }
 
-module "database" {
-  count = var.use_database_module ? 1 : 0
+# module "database" {
+#  count = var.use_database_module ? 1 : 0
 
-  source = "../../modules/database"
+#  source = "../../modules/database"
 
-  env             = var.env
-  name            = var.name
-  location        = var.location
-  rg_name         = module.resource_group.rg_name
-  db_name         = var.database_name
-  sku_name        = var.database_sku_name
-  username        = var.database_username
-  password        = var.database_password
+#  env             = var.env
+#  name            = var.name
+#  location        = var.location
+#  rg_name         = module.resource_group.rg_name
+#  db_name         = var.database_name
+#  sku_name        = var.database_sku_name
+#  username        = var.database_username
+#  password        = var.database_password
 
-  depends_on      = [ module.resource_group, module.network ]
-}
+#  depends_on      = [ module.resource_group, module.network ]
+#}
