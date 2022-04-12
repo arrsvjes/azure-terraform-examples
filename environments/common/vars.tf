@@ -3,7 +3,7 @@ variable "compute_disk_size" { default = "30" }
 variable "compute_instance_size" { default = "DC1ds_v3" }
 variable "compute_username" { default = "cloud-user" }
 variable "database_name" { default = "testdb" }
-variable "database_sku_name" { }
+variable "database_sku_name" { default = "" }
 variable "database_username" { default = "psqladmin" }
 variable "database_password" { default = "C44Tr@in1ng" }
 variable "env" { }
