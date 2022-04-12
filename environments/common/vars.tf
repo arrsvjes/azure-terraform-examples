@@ -1,6 +1,6 @@
 variable "cidr_block" { default = "10.0.0.0/16" }
 variable "compute_disk_size" { default = "30" }
-variable "compute_instance_size" { default = "D2as_v4" }
+variable "compute_instance_size" { default = "Standard_F1" }
 variable "compute_username" { default = "cloud-user" }
 variable "database_name" { default = "testdb" }
 variable "database_sku_name" { }
