@@ -4,10 +4,10 @@ variable "compute_instance_size" { default = "Standard_F2" }
 variable "compute_username" { default = "cloud-user" }
 variable "database_name" { default = "testdb" }
 variable "database_sku_name" { }
-variable "database_username" { }
-variable "database_password" { }
+variable "database_username" { default = "psqladmin" }
+variable "database_password" { default = "ctttrainig" }
 variable "env" { }
-variable "location" { default = "westus" }
+variable "location" { default = "eastus" }
 variable "name" { }
 variable "ssh_key_file" { default = "~/.ssh/id_rsa.pub" }
 variable "use_compute_module" { default = true }
