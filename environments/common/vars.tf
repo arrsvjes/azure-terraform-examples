@@ -5,7 +5,7 @@ variable "compute_username" { default = "cloud-user" }
 variable "database_name" { default = "testdb" }
 variable "database_sku_name" { }
 variable "database_username" { default = "psqladmin" }
-variable "database_password" { default = "ctttrainig" }
+variable "database_password" { default = "C44Tr@in1ng" }
 variable "env" { }
 variable "location" { default = "eastus" }
 variable "name" { }
