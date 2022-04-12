@@ -7,7 +7,7 @@ variable "database_sku_name" { default = "" }
 variable "database_username" { default = "psqladmin" }
 variable "database_password" { default = "C44Tr@in1ng" }
 variable "env" { }
-variable "location" { default = "eastus2" }
+variable "location" { default = "West Europe" }
 variable "name" { }
 variable "ssh_key_file" { default = "~/.ssh/id_rsa.pub" }
 variable "use_compute_module" { default = true }
